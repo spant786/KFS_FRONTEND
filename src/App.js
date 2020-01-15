@@ -1,14 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter} from 'react-router-dom';
+import User from './Container/User/User'
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        
-      </header>
-    </div>
+
+    <BrowserRouter>
+    
+      <div className="App">
+       <User/>
+      </div>
+     
+    </BrowserRouter>
+
   );
 }
 
