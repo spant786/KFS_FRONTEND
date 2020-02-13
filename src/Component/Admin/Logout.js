@@ -37,7 +37,7 @@ class LogOut extends React.Component {
         return (
            
 
-<p>Are You sure<button onClick={this.LogOut}>LogOut</button></p>
+<p>ARE YOU SURE ???<br/><button onClick={this.LogOut}>LOGOUT</button></p>
                
 
            

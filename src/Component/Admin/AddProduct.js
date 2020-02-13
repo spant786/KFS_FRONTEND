@@ -94,29 +94,29 @@ class AddProduct extends React.Component{
                  <AdminHeader/>
                 <center>
                 <form class ="form-body">
-                <center> <h1>Add Product</h1> </center>
+                <center> <h1>ADD PRODUCT</h1> </center>
 
-                <p class ="para">Product Name</p>
-                <input type="text" name="product_name" placeholder="Enter Product Name"  onChange={this.handleChange} required/>
+                <p class ="para">PRODUCT NAME</p>
+                <input type="text" name="product_name" placeholder="ENTER PRODUCT NAME"  onChange={this.handleChange} required/>
 
-                <p class ="para">Product Type</p>
-                <input type="text" name="product_type" placeholder="Enter Product Type"  onChange={this.handleChange} required/>
+                <p class ="para">PRODUCT TYPE</p>
+                <input type="text" name="product_type" placeholder="ENTER PRODUCT TYPE"  onChange={this.handleChange} required/>
 
-                <p class ="para">Product Code</p>
+                <p class ="para">PRODUCT CODE</p>
        
-                <input type="text" name="product_code" placeholder="Enter Product Code"  onChange={this.handleChange} required/>
+                <input type="text" name="product_code" placeholder="ENTER PRODUCT CODE"  onChange={this.handleChange} required/>
                 
                    
                     
-                <p class ="para">Price</p>
-                <input type="text" name="price" placeholder="Enter price"  onChange={this.handleChange} required/>
+                <p class ="para">PRICE</p>
+                <input type="text" name="price" placeholder="ENTER PRICE"  onChange={this.handleChange} required/>
 
     
 
-                <p class ="para">Image</p>
-                <input type="file" name="Image" placeholder="choose image" onChange={this.handleImageChange} required/>
+                <p class ="para">IMAGE</p>
+                <input type="file" name="Image" placeholder="CHOOSE AN IMAGE" onChange={this.handleImageChange} required/>
 
-                <p><button class ="abc" onClick={this.Login} type="submit" onClick={this.addproduct}>Add Product</button></p>
+                <p><button class ="abc" onClick={this.Login} type="submit" onClick={this.addproduct}>ADD PRODUCT</button></p>
                 </form>
                 
                   

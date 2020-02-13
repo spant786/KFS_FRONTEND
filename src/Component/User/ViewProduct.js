@@ -23,13 +23,13 @@ class ViewProduct extends React.Component{
                  <div>
                    
                         <img src={"http://localhost:5000/images/"+hlists.Image} style={{width:"100px",height:"100px"}}/>  
-                      <li>Product Name:{hlists.product_name}</li><br/>
+                      <li>PRODUCT NAME:{hlists.product_name}</li><br/>
             <li>{hlists.Image}</li>
-                        <li>Product Type:{hlists.product_type}</li><br/>
-                        <li>Product Code:{hlists.product_code}</li><br/>
-                        <li>price:{hlists.price}</li><br/>
+                        <li>PRODUCT TYPE:{hlists.product_type}</li><br/>
+                        <li>PRODUCT CODE:{hlists.product_code}</li><br/>
+                        <li>PRICE:{hlists.price}</li><br/>
                 
-                   <button> <p><NavLink to={"/Cart/"+hlists._id}>Add to Cart</NavLink></p></button>
+                   <button> <p><NavLink to={"/Cart/"+hlists._id}>ADD TO CART</NavLink></p></button>
                    <br/>
 
                     

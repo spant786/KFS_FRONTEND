@@ -4,9 +4,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color:rgb(8, 152, 219);
-    background-image: url(img_flwr.gif), url(paper.gif);
-    background-position: right bottom, left top;
-    background-repeat: no-repeat, repeat;
+   
   }
   
   li {

@@ -63,32 +63,32 @@ Register = (e) => {
              <div class="containers">
             
 
-            <p>Fullname</p>
+            <p>FULLNAME</p>
             <input type="text" value = {this.state.fullname} onChange = {(event)=> this.setState({fullname:event.target.value})} 
-            placeholder="Enter Fullname" name="fullname" required/>
+            placeholder="ENTER FULLNAME" name="fullname" required/>
             
-           <p>Address</p>
+           <p>ADDRESS</p>
             <input type="text" value = {this.state.address} onChange = {(event)=> this.setState({address:event.target.value})} 
-            placeholder="Enter Adress" name="address" required/>
+            placeholder="ENTER ADDRESS" name="address" required/>
             
             <p>Contact Number</p>
             <input type="text" value = {this.state.number} onChange = {(event)=> this.setState({number:event.target.value})} 
-            placeholder="Enter phone number" name="number" required/>
+            placeholder="ENTER PHONE NUMBER" name="number" required/>
             
            <p>Email</p>
             <input type="email" value = {this.state.email} onChange = {(event)=> this.setState({email:event.target.value})} 
-            placeholder="Enter email" name="email" required/>
+            placeholder="ENTER EMAIL" name="email" required/>
             
             <p>Password</p>
             <input type="password" value = {this.state.password} onChange = {(event)=> this.setState({password:event.target.value})}
-            placeholder="Enter Password" name="password" required/>
+            placeholder="ENTER PASSWORD" name="password" required/>
              <input type="hidden" value = {this.state.usertype} onChange = {(event)=> this.setState({usertype:event.target.value})}
             name="user_type" required/>
             
-            <button className="abc" onClick={this.Register} type="submit">Register</button>
+            <button className="abc" onClick={this.Register} type="submit">REGISTER</button>
             
-            <p>Alredy Member?
-            <NavLink to="/Login"> Login</NavLink></p>
+            <p>ALREADY A MEMBER?
+            <NavLink to="/Login"> LOGIN</NavLink></p>
             
             </div>
 

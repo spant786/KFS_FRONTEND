@@ -46,26 +46,26 @@ class UpdateUser extends React.Component{
          <UserHead/>
          <center>
                 <form class ="form-body">
-                <center> <h1>Please update your profile</h1> </center>
+                <center> <h1>PLEASE UPDATE YOUR PROFILE</h1> </center>
 
  
- <p>FullName</p>
+ <p>FULLNAME</p>
  <input type="text" value={this.state.fullname}
 onChange={(event)=>this.setState({fullname : event.target.value})} />
 
-<p>Email</p>
+<p>EMAIL</p>
  <input type="text" value={this.state.email}
 onChange={(event)=>this.setState({email: event.target.value})}/>
 
-<p>Address</p>
+<p>ADDRESS</p>
  <input type="text" value={this.state.address}
 onChange={(event)=>this.setState({address: event.target.value})}/>
 
-<p>Contact Number</p>
+<p>CONTACT NUMBER</p>
   <input type="text" value={this.state.number}
 onChange={(event)=>this.setState({number: event.target.value})}/>
 
-<p> <button onClick={this.UpdateData}>Update</button></p>
+<p> <button onClick={this.UpdateData}>UPDATE</button></p>
  </form>
  </center>
 

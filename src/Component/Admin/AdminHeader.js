@@ -38,14 +38,12 @@ class Sidenav extends React.Component{
         return(
             <div class="navbar">
             <ul>
-                <li>  <NavLink to={ `${this.state.user_id}` }>AdminDashboard</NavLink></li>
-                <li><NavLink to= { `${this.state.user_id1}` } >AddProduct</NavLink></li>
-                <li><NavLink to={ `${this.state.user_id2}` }>ManageCart</NavLink></li>
-                <li><NavLink to={ `${this.state.user_id3}` }>ManageUser</NavLink></li>
-                <li><NavLink to={ `${this.state.user_id4}` }>ManageProduct</NavLink></li>
-            
-                <li><NavLink to={ `${this.state.user_id6}` }>Update User</NavLink></li>
-                <li><NavLink to="/logout" >Logout</NavLink></li>
+                <li>  <NavLink to={ `${this.state.user_id}` }>DASHBOARD</NavLink></li>
+                <li><NavLink to= { `${this.state.user_id1}` } >ADD PRODUCT</NavLink></li>
+                <li><NavLink to={ `${this.state.user_id3}` }>MANAGE USER</NavLink></li>
+                <li><NavLink to={ `${this.state.user_id4}` }>MANAGE PRODUCT</NavLink></li>
+                <li><NavLink to={ `${this.state.user_id6}` }>UPDATE USER</NavLink></li>
+                <li><NavLink to="/logout" >LOGOUT</NavLink></li>
                
                
             

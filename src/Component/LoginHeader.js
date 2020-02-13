@@ -12,8 +12,8 @@ class LoginHeader extends React.Component{
             <div class="navbar">
             <ul>
                
-                <li><NavLink to="/" >Login</NavLink></li>
-                <li><NavLink to="/Register" >Register</NavLink></li>
+                <li><NavLink to="/" >LOGIN</NavLink></li>
+                <li><NavLink to="/Register" >REGISTER</NavLink></li>
                
 
             

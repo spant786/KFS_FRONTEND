@@ -46,15 +46,15 @@ class Login extends React.Component {
         return (
             <div className="container">
 
-                <p>Email</p>
-                <input type="text" value={this.state.email} onChange={(event) => this.setState({ email: event.target.value })} placeholder="Enter Email" name="email" required />
+                <p>EMAIL OR USERNAME</p>
+                <input type="text" value={this.state.email} onChange={(event) => this.setState({ email: event.target.value })} placeholder="ENTER EMAIL" name="email" required />
 
-                <p>Password</p>
-                <input type="password" value={this.state.password} onChange={(event) => this.setState({ password: event.target.value })} placeholder="Enter Password" name="password" required />
+                <p>PASSWORD</p>
+                <input type="password" value={this.state.password} onChange={(event) => this.setState({ password: event.target.value })} placeholder="ENTER PASSWORD" name="password" required />
 
 
-                <button className="abc" onClick={this.login} type="submit">Login</button><br />
-               <p>New member <NavLink to={"/Register"}>Register</NavLink> </p> 
+                <button className="abc" onClick={this.login} type="submit">LOGIN</button><br />
+               <p>NEW MEMBER <NavLink to={"/Register"}>REGISTER</NavLink> </p> 
                 <Switch>
 
                     <Route path="/Register" exact Component={Register} />

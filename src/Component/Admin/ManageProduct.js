@@ -30,12 +30,12 @@ class ManageProduct extends React.Component{
               
            <table>
                <tr>
-    <th>Product Image</th>               
-    <th>Product Name</th>
-    <th>Product Type</th>
-    <th>Product Code</th>
-    <th>Price</th>
-    <th> Action</th>
+    <th>PRODUCT IMAGE</th>               
+    <th>PRODUCT NAME</th>
+    <th>PRODUCT TYPE</th>
+    <th>PRODUCT CODE</th>
+    <th>PRICE</th>
+    <th> ACTION</th>
   </tr>
 
   <tr>
@@ -47,8 +47,8 @@ class ManageProduct extends React.Component{
 
 
     <td>
-<button class ="button" onClick = {() => this.DeleteProduct(hlists._id)}>Delete</button>
-<NavLink to={"/UpdateProduct/"+hlists._id}>Update</NavLink><br/>
+<button class ="button" onClick = {() => this.DeleteProduct(hlists._id)}>DELETE</button>
+<NavLink to={"/UpdateProduct/"+hlists._id}>UPDATE</NavLink><br/>
     </td>
 
   </tr>

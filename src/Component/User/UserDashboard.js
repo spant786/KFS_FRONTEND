@@ -42,16 +42,16 @@ class UserDashboard extends React.Component{
          <UserHead/>
          <center>
                 <form class ="form-body">
-                <center> <h1>Welcome to the portal.</h1> </center>
+                <center> <h1>WELCOME TO THE PORTAL.</h1> </center>
                 <img src ="images/logo.PNG"/>
                 {/* return <img src={avatar} alt="avatar" />
                 source={require("../../public/avatar")} */}
  
- <p>Full Name:{this.state.fullname}</p>
- <p>Email: {this.state.email}</p>
- <p>Address:{this.state.address}</p>
+ <p>FULLNAME:{this.state.fullname}</p>
+ <p>EMAIL: {this.state.email}</p>
+ <p>ADDRESS:{this.state.address}</p>
 
- <p>Contact Number: {this.state.number}</p>
+ <p>CONTACT NUMBER: {this.state.number}</p>
 
 
  </form>

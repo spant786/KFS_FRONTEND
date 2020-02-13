@@ -33,7 +33,7 @@ class AdminDashboard extends React.Component{
     return(
         <div>
         <AdminHeader/>
-        <div><h1>Welcome to AdminDashboard</h1></div>
+        <div><h1>WELCOME TO ADMINDASHBOARD </h1></div>
         </div>
     )
     }

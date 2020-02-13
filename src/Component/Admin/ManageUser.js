@@ -30,11 +30,11 @@ class ManageUser extends React.Component{
               
                      <table>
                <tr>
-    <th>Fullname</th>
-    <th>Email</th>
-    <th>Address</th>
-    <th>Contact Number</th>
-    <th> Action</th>
+    <th>FULLNAME</th>
+    <th>EMAIL</th>
+    <th>ADDRESS</th>
+    <th>CONTACT NUMBER</th>
+    <th> ACTION</th>
   </tr>
 
   <tr>
@@ -43,8 +43,8 @@ class ManageUser extends React.Component{
     <td>{hlists.address}</td>
     <td>{hlists.number}</td>
     <td>
-<button class ="button" onClick = {() => this.DeleteUser(hlists._id)}>Delete</button>
-<NavLink to={"/UpdateUser/"+hlists._id}>Update</NavLink><br/>
+<button class ="button" onClick = {() => this.DeleteUser(hlists._id)}>DELETE</button>
+<button><NavLink to={"/UpdateUser/"+hlists._id}>UPDATE</NavLink></button><br/>
     </td>
 
   </tr>
